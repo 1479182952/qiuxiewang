@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.header {
+  height: 50px;
+  margin: 0 auto;
+  background: black; }
+  .header .head {
+    width: 1170px;
+    margin: 0 auto;
+    height: 50px; }
+    .header .head .head1 {
+      width: 430px;
+      height: 50px;
+      float: left; }
+      .header .head .head1 li {
+        width: 100px;
+        height: 34px;
+        float: left;
+        margin-top: 8px;
+        line-height: 34px;
+        margin-right: 10px; }
+        .header .head .head1 li a {
+          color: white; }
+    .header .head .head2 {
+      float: left;
+      width: 100px;
+      height: 50px;
+      margin-left: 210px;
+      padding-right: 13px;
+      background: url(../img/p1.jpg) no-repeat 110px 18px; }
+      .header .head .head2 li {
+        width: 35px;
+        height: 50px;
+        color: white;
+        float: left;
+        line-height: 50px; }
+      .header .head .head2 #register {
+        margin-left: 10px; }
+    .header .head .head3 {
+      width: 390px;
+      height: 50px;
+      float: right; }
+      .header .head .head3 li {
+        float: left;
+        height: 50px;
+        line-height: 50px;
+        margin-left: 10px; }
+        .header .head .head3 li a {
+          color: #7d7d7d; }
+
+.header .head .head1 li:nth-child(4) {
+  margin-right: 0; }
+
+.header .head .head1 li:hover {
+  background: #ffdd00;
+  border-radius: 5px; }
+  .header .head .head1 li:hover a {
+    color: black; }
+
+.header .head .head3 li:nth-child(5) a {
+  color: #dc1c25; }
+
+.header .head .head2 li:hover {
+  color: #FFDD00; }
+
+.header .head .head3 li:hover a {
+  color: #FFDD00; }
+
+/*# sourceMappingURL=header.css.map */
